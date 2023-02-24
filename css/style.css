@@ -1,0 +1,467 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.home {
+    background-image: url(../img/bg.jpg);
+    background-position: center center;
+    background-size: cover;
+   
+}
+nav
+{
+    z-index: 99999;
+   
+    background-color: rgba(0, 0, 0, 0.476);
+}
+
+.nav-item a {
+    margin-right: 1rem;
+    font-weight: 400;
+    color: white !important;
+}
+
+
+
+.home-info h2 {
+    font-size: 3rem;
+    font-weight: 800;
+}
+.home-info i
+{
+    margin-left: 1rem;
+}
+
+.home-info h1
+{
+    font-size: 4rem;
+    font-weight: 50;
+}
+
+.home-items {
+    background-color: rgba(0, 0, 0, 0.600);
+}
+
+.home-info h1::after {
+    content: "|";
+    font-weight: 500;
+    animation-name: type;
+    animation-iteration-count: infinite;
+    animation-duration: 9s;
+    animation-fill-mode: both;
+}
+
+@keyframes type {
+  
+    0% {
+        content: ' |';
+    }
+
+    2% {
+        content: ' L|';
+    }
+
+    4% {
+        content: 'La |';
+    }
+
+    6% {
+        content: 'Lar|';
+    }
+
+    8% {
+        content: 'Larr |';
+    }
+
+    10% {
+        content: 'Larry |';
+    }
+
+    12% {
+        content: 'Larry D |';
+    }
+
+    14% {
+        content: 'Larry Da |';
+    }
+
+    16% {
+        content: 'Larry Dan |';
+    }
+
+    18% {
+        content: 'Larry Danie|';
+    }
+
+    20% {
+        content: 'Larry Daniels |';
+    }
+
+    22% {
+        content: 'Larry Danie |';
+    }
+
+    24% {
+        content: 'Larry Dan |';
+    }
+
+    26% {
+        content: 'Larry Da |';
+    }
+
+    28% {
+        content: 'Larry D |';
+    }
+
+    30% {
+        content: 'Larr |';
+    }
+
+    32% {
+        content: 'Lar|';
+    }
+
+    34% {
+        content: 'La |';
+    }
+
+    36% {
+        content: 'L |';
+    }
+
+    38% {
+        content: ' |';
+    }
+
+    40% {
+        content: 'D|';
+    }
+
+    42% {
+        content: 'De |';
+    }
+
+    44% {
+        content: 'Dev |';
+    }
+
+    46% {
+        content: 'Deve |';
+    }
+
+    48% {
+        content: 'Develo |';
+    }
+
+    50% {
+        content: 'Develop |';
+    }
+
+    52% {
+        content: 'Develope|';
+    }
+
+    54% {
+        content: 'Developer|';
+    }
+
+    56% {
+        content: 'Develo |';
+    }
+
+    58% {
+        content: 'Deve |';
+    }
+
+    60% {
+        content: 'De |';
+    }
+
+    62% {
+        content: 'D |';
+    }
+
+    64% {
+        content: ' |';
+    }
+
+    66% {
+        content: 'D |';
+    }
+
+    68% {
+        content: 'De |';
+    }
+
+    70% {
+        content: 'Des |';
+    }
+
+    72% {
+        content: 'Desi|';
+    }
+
+    74% {
+        content: 'Desig |';
+    }
+
+    76% {
+        content: 'Design |';
+    }
+
+    78% {
+        content: 'Designe|';
+    }
+
+    80% {
+        content: 'Designer |';
+    }
+
+    82% {
+        content: 'Designe |';
+    }
+
+    84% {
+        content: 'Design|';
+    }
+
+    86% {
+        content: 'Desig|';
+    }
+
+    88% {
+        content: 'Desi|';
+    }
+
+    90% {
+        content: 'Des|';
+    }
+
+    92% {
+        content: 'De|';
+    }
+
+    100% {
+        content: 'D|';
+    }
+}
+
+
+.about
+{
+    position: relative;
+ 
+}
+
+.about::before
+{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 85%;
+    right: 5%;
+    top: 20%;
+    z-index: -1;
+   background-image: url(../img/dots.png);
+
+}
+.btn2
+{
+border-style: solid !important;
+border-color: black;
+border-width: 1px;
+}
+.top h2
+{
+    font-size: 3rem;
+    font-weight: 900;
+}
+.items-services i
+{
+font-size: 2rem;
+}
+.items-services
+{
+    background-color: white !important;
+    box-shadow: 0px 0px 20px gainsboro  ;
+   
+}
+.img-testimon
+{
+    width: 10rem;
+}
+.items-services h5
+{
+    font-weight: 900;
+}
+.icon
+{
+     width: 70px;
+     height: 70px;
+     border-radius: 50%;
+     margin: auto;
+    background-color: rgb(239, 243, 246);
+    transition: 0.5s;
+     
+}
+.items-services:hover .icon
+{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+.slider1 .carousel-indicators {
+    position: static;
+  
+}
+.slider1 .carousel-indicators [data-bs-target]
+{
+    height: 0.7rem;
+    width: 0.7rem;
+    border-radius: 50%;
+    margin-left: 0.5rem;
+    background-color: rgb(0, 0, 0);
+}
+
+.slider1 .slider-info {
+
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.slider1 .slider-info img {
+    border-radius: 50%;
+}
+.slider1 .carousel-top
+{
+    font-size:3rem!important;
+    font-weight: 900;
+}
+
+
+.slider1 .slider {
+    
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.slider1 .slider-info 
+{
+   width: 75%;
+   margin: auto;
+}
+
+.slider1 .slide {
+    background-color: #f7f7f7;
+}
+.top 
+{
+position: relative;
+background-color: transparent;
+z-index: 2;
+}
+.dots-top
+{
+position: absolute;
+background-image: url(../img/dots.png);
+ width: 15%;
+ height: 36%;
+ left: 50%;
+ top: 70%;
+ transform: translateX(-50%);
+z-index: -1;
+
+
+}
+.items-port
+{
+    overflow: hidden;
+}
+.imge
+{
+position: relative;
+}
+.img-por
+{
+    position: absolute;
+    
+    width: 96%;
+    height: 96%;
+    top: 100%;
+    transition: all 0.5s;
+}
+.items-port:hover .img-por
+{
+background-color: rgb(255, 255, 255);
+top: 2% ;
+
+}
+.nav-pills .nav-link.active
+{
+    background-color: black;
+    position: relative;
+    
+}
+.items-happy i
+{
+font-size: 3rem;
+margin-bottom: 1rem;
+}
+.icon-cont i
+{
+  font-size: 2rem;
+}
+.icon-cont
+{
+   border-style: solid;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 1rem;
+    transition: all 0.5s;
+}
+
+.items-cont:hover .icon-cont
+{
+    background-color: black;
+    color: white;
+}
+.carousel-indicators
+{
+    position: static;
+}
+.carousel-indicators [data-bs-target]
+{
+    height: 0.7rem;
+    width: 0.7rem;
+    border-radius: 50%;
+    margin-left: 0.5rem;
+    background-color: rgb(0, 0, 0);
+}
+
+.items-our 
+{
+ overflow: hidden;
+ 
+}
+.items-our img
+{
+    transition: all 0.5s;
+}
+.items-our a
+{
+    color: black;
+}
+.items-our:hover img
+{
+ transform: scale(1.2);
+}
+.navbar-toggler
+{
+    background-color: white !important;
+}
